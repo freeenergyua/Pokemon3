@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE2434F91DDC95DE0091D9EF /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = CE2434F81DDC95DE0091D9EF /* pokemon.csv */; };
 		CE9B13C01DDC59D5000CBA30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B13BF1DDC59D5000CBA30 /* AppDelegate.swift */; };
 		CE9B13C21DDC59D5000CBA30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B13C11DDC59D5000CBA30 /* ViewController.swift */; };
 		CE9B13C51DDC59D5000CBA30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9B13C31DDC59D5000CBA30 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE2434F81DDC95DE0091D9EF /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		CE9B13BC1DDC59D5000CBA30 /* Pokemon-swift3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokemon-swift3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9B13BF1DDC59D5000CBA30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE9B13C11DDC59D5000CBA30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				CE9B13C11DDC59D5000CBA30 /* ViewController.swift */,
 				CE9B13C31DDC59D5000CBA30 /* Main.storyboard */,
 				CE9B13C61DDC59D5000CBA30 /* Assets.xcassets */,
+				CE2434F81DDC95DE0091D9EF /* pokemon.csv */,
 				CE9B13C81DDC59D5000CBA30 /* LaunchScreen.storyboard */,
 				CE9B13CB1DDC59D5000CBA30 /* Info.plist */,
 			);
@@ -125,6 +128,7 @@
 			files = (
 				CE9B13CA1DDC59D5000CBA30 /* LaunchScreen.storyboard in Resources */,
 				CE9B13C71DDC59D5000CBA30 /* Assets.xcassets in Resources */,
+				CE2434F91DDC95DE0091D9EF /* pokemon.csv in Resources */,
 				CE9B13C51DDC59D5000CBA30 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +303,7 @@
 				CE9B13D01DDC59D5000CBA30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
